@@ -1,0 +1,7 @@
+# GIT to autodetect text, normalize line ending using LF
+* text=auto eol=lf
+
+# force Windows-specific scripts to always use CRLF so that if a repo is accessed
+# in Windows via a file share from Linux, the scripts will work.
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf

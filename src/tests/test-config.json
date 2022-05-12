@@ -1,0 +1,31 @@
+{
+  "engine": {
+    "engineName": "chrome",
+
+    "executionMode": "local",
+    "remoteEngineUrl": "http://lisrs1.axmor.nsk:4444",
+    "imageHostingUrl": "http://lisrs1.axmor.nsk:5000",
+
+    "enableVideo": "disabled",
+    "enableLog": "always",
+    "enableVnc": "always",
+    "enableScreenshot": "failedOnly",
+
+    "waitSeconds": 30,
+    "warmupSeconds": 1.5
+  },
+
+  "app": {
+    "projectName": "fsin_mail",
+
+    "url": "https://fsin-pismo.axmor.com/fsin-client",
+    "environmentName": null,
+    "userLogin": "operator",
+    "userPassword": "1",
+
+    "adminLogin": "admin",
+    "adminPassword": "1",
+
+    "packageUrl": "http://volsk.axmor.com/android/vsk_release_1.30.3.apk"
+  }
+}

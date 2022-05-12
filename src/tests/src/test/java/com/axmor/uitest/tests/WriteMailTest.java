@@ -24,7 +24,5 @@ public class WriteMailTest extends TestBase {
         PortalPayMailPage.startPaymentBankCard();
         InvoiceboxPage.closeInvoiceboxPage();
         PortalPayMailPage.checkTextAboutSendMail();
-
-        assertTrue(true);
     }
 }
